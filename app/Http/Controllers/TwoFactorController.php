@@ -11,7 +11,7 @@ class TwoFactorController extends Controller
      */
     public function index()
     {
-        //
+        return view('auth.verify');
     }
 
     /**
